@@ -39,13 +39,13 @@ header button{
 }
 
 /* styling for hero section */
-.hero{
+.banner{
     background-image: url(../assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.hero-container{
+.banner-container{
     padding: 70px 120px 134px 120px;
     display: flex;
     flex-direction: column;
@@ -53,39 +53,39 @@ header button{
     flex: 1;
     justify-content: center;
 }
-.hero .hero-container .early-access{
+.banner .banner-container .early-access{
     padding: 8px 12px;
     background-color: white;
     border-radius: 1000px;
     display: flex;
     align-items: center;
 }
-.hero .hero-container p{
+.banner .banner-container p{
     color: #469165;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 16px;
 }
 
-.hero .hero-container h1{
+.banner .banner-container h1{
     font-size: 72px;
     font-weight: 700;
     line-height: 84px;
     color: white;
     margin-bottom: 16px;
 }
-.hero .hero-container .details{
+.banner .banner-container .details{
     color: white;
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 32px;
     text-align: center;
 }
-.hero .hero-container .btn{
+.banner .banner-container .btn{
     display: flex;
     gap: 16px;
 }
-.hero .hero-container .btn button{
+.banner .banner-container .btn button{
     padding: 16px;
     align-items: center;
     display: flex;
@@ -97,7 +97,62 @@ header button{
     border: none;
     border-radius: 4px;
 }
-.hero .hero-container .btn .btn1{
+.banner .banner-container .btn .btn1{
     background-color: transparent;
     border: 1px solid white;
+}
+
+/* note section styling */
+.note{
+    padding: 60px 120px 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+.note h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.note p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+.card-container{
+    display: flex;
+    gap: 24px;
+}
+.card-container .card{
+    padding: 70px 24px 0px;
+    box-shadow: 0 0 8px white;
+    border: 1px solid rgba(155, 150, 150, 0.168);
+    background-color: white;
+    border-radius: 8px;
+    max-width: 322px;
+}
+.card img{
+    background-color: #F95555;
+    border: 10px solid #F95555;
+    border-radius: 50%;
+    max-width: 60px;
+    margin-bottom: 16px;
+}
+.card h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
 }
