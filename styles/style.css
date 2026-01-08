@@ -4,15 +4,12 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
-body{
-    padding: 0 120px;
-}
 
 /*styling for header section*/
 header{
     display: flex;
     align-items: center;
-    padding: 16px 0;
+    padding: 16px 120px;
     justify-content: space-between;
 }
 header img{
@@ -39,4 +36,68 @@ header button{
     color: white;
     font-size: 16px;
     font-weight: 600;
+}
+
+/* styling for hero section */
+.hero{
+    background-image: url(../assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-container{
+    padding: 70px 120px 134px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+.hero .hero-container .early-access{
+    padding: 8px 12px;
+    background-color: white;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+}
+.hero .hero-container p{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.hero .hero-container h1{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: white;
+    margin-bottom: 16px;
+}
+.hero .hero-container .details{
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+.hero .hero-container .btn{
+    display: flex;
+    gap: 16px;
+}
+.hero .hero-container .btn button{
+    padding: 16px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #469165;
+    border: none;
+    border-radius: 4px;
+}
+.hero .hero-container .btn .btn1{
+    background-color: transparent;
+    border: 1px solid white;
 }
