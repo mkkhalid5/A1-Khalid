@@ -156,3 +156,39 @@ header button{
     line-height: 20px;
     color: #627382;
 }
+
+/* Second Brain styling */
+.second-brain{
+    padding: 120px 120px 32px;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+.second-brain-details h6{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+}
+.second-brain-details h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.second-brain-details p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.second-brain-details ul{
+    list-style: none;
+}
+.second-brain-details ul li{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
