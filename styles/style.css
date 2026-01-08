@@ -249,3 +249,42 @@ header button:hover{
     cursor: pointer;
     background-color: #469165c2;
 }
+
+/* footer section styling */
+footer{
+    padding: 120px 120px 32px;
+    background-color: #001931;
+}
+footer .footer-head{
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+footer .footer-head .social{
+    margin-right: 100px;
+}
+footer .footer-head .social h4{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    margin-bottom: 16px;
+}
+footer .footer-head .social .social-icon{
+    display: flex;
+    gap: 8px;
+    color: white;
+    font-size: 20px;
+}
+footer .footer-head .social .social-icon i:hover{
+    cursor: pointer;
+}
+footer p{
+    text-align: center;
+    color: #FAFAFA;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+}
