@@ -37,6 +37,10 @@ header button{
     font-size: 16px;
     font-weight: 600;
 }
+header button:hover{
+    cursor: pointer;
+    background-color: #469165c2;
+}
 
 /* styling for hero section */
 .banner{
@@ -97,9 +101,17 @@ header button{
     border: none;
     border-radius: 4px;
 }
+.banner .banner-container .btn button:hover{
+    cursor: pointer;
+    background-color: #469165c2;
+}
 .banner .banner-container .btn .btn1{
     background-color: transparent;
     border: 1px solid white;
+}
+.banner .banner-container .btn .btn1:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.045);
 }
 
 /* note section styling */
@@ -191,4 +203,49 @@ header button{
     align-items: center;
     gap: 6px;
     margin-bottom: 16px;
+}
+
+/* Early Access Section styling */
+.early-access{
+    padding: 0 120px 120px;
+}
+.early-access .early-access-card{
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 60px ;
+}
+.early-access-card h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.early-access-card p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.early-access-card button{
+    padding: 16px;
+    background-color: #469165;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+    font-size: 16px;
+    color: white;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.early-access-card button:hover{
+    cursor: pointer;
+    background-color: #469165c2;
 }
